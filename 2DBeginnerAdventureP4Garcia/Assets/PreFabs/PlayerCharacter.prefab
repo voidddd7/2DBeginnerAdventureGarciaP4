@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3173439654232863390}
   - component: {fileID: 9163393253839787437}
   - component: {fileID: 4023713962910363392}
+  - component: {fileID: 2695827104040524485}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -99,6 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b3b6017992c23b44a24a540c48cb4ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  maxHealth: 5
+  timeInvincible: 2
 --- !u!50 &9163393253839787437
 Rigidbody2D:
   serializedVersion: 4
@@ -171,3 +175,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.77, y: 2.21}
   m_EdgeRadius: 0
+--- !u!95 &2695827104040524485
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8885575627437651062}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34d36e1bead33a942930d6f3d41aa8fa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
