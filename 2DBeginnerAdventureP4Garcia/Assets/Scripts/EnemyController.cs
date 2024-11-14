@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     public float changeTime = 3.0f;
 
     Rigidbody2D rigidbody2d;
+
     float timer;
     int direction = 1;
 
